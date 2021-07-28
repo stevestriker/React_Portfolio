@@ -1,0 +1,123 @@
+.main {
+  background: url("Images/Skyline2.gif") center center/cover no-repeat;
+}
+
+.air-container {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  color: rgb(228, 250, 255);
+  padding-top: 35px;
+  font-size: 3.3rem;
+  transition: 0.5s ease;
+  text-align: center;
+}
+
+.title:hover {
+  transform: scale(1.1);
+  text-align: center;
+  transition: 0.4s linear;
+  background: linear-gradient(
+    to right,
+    rgb(228, 250, 255) 10%,
+    rgb(56, 126, 255, 0.979) 40%,
+    #fff 80%
+  );
+  background-size: 200% auto;
+  color: #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.temp-notice {
+  color: #74eaf5;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* .signal-gif {
+    height: 450px;
+    width: 1200px;
+    border-radius: 2px solid aqua;
+  } 
+  
+  .gif-wrapper {
+    display: flex;
+    height: 450px;
+    width: 1200px;
+  }*/
+
+.cities-list-container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-between;
+}
+
+/* .city-items-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+  } */
+
+.city-items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: aqua;
+  font-size: 25px;
+  border-bottom: 3px solid #74eaf5;
+  text-shadow: 5px 4px 6px #56ffe9;
+  color: white;
+}
+
+.city-items:hover {
+  text-decoration: pointer;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.2s ease-out;
+}
+
+.city-button {
+  color: rgb(116, 234, 245);
+  font-size: 28px;
+  line-height: 28px;
+  padding: 13px;
+  border-radius: 31px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  box-shadow: rgb(0, 0, 255) 5px 5px 15px 5px;
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+.myButton:hover {
+  background: #1c6ea4;
+}
+.myButton:active {
+  background: #144e75;
+  padding-top: 20px;
+}
+
+.city-wrapper h1 {
+  font-size: 30px;
+  text-shadow: 5px 4px 6px #56ffe9;
+  color: rgb(116, 234, 245);
+}

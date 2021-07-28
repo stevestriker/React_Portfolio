@@ -1,0 +1,49 @@
+body {
+  font-family: "Goldman", cursive;
+
+}
+
+.nasa-container {
+  background-color: #445565;
+  display: flex;
+  flex-direction: column;
+  color: aquamarine;
+  font-size: larger;
+  align-items: center;
+}
+
+.nasa-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nasa-container h2 {
+  box-shadow: 3px 1px 5px 0px #00ffff;
+}
+.nasa-container p {
+  font-size: medium;
+  color: aquamarine;
+  background-color: transparent;
+  box-shadow: 3px 1px 5px 0px #00ffff;
+}
+.description {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.nasa-photo {
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  border: 5px solid aquamarine;
+}
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150vh;
+}
+.icon {
+  size: 5em;
+  cursor:pointer;
+}
